@@ -31,7 +31,7 @@
 * default: false
 * point :Only one item can be active at a time
 
-### IconBeforclick
+### IconBeforClick
 * Type: String
 * default: arrow-start
 * available values: arrow-start, plus, arrow-right-slim,...
