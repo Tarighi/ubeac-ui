@@ -1,4 +1,4 @@
-# U-Alert
+# UAlert
 
 ## Properties
 
