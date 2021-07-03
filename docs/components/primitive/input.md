@@ -11,6 +11,10 @@
 
 * type: String
 
+### name
+
+* type: String
+
 ### placeholder
 
 * type: String
@@ -59,12 +63,23 @@
 * default: null
 * available values: en-US, fa-IR, ...
 
+
 ## Methods
 
-// TODO: which methods do we need?
+### focus
+### keyup
+### keydown
+### blur
+### click
+### mouseOver
 
 ## Examples
 
 ```html
-<u-input type="text" />
+<u-input type="text" value="Sample" name="SampleID" placeholder="Sample" tooltip="Sample" format="" mask="" disable="false" visible="true" readonly="false" dir="left" language="en-US" 
+         @focus="" @keyup="" @keydown="" @blur="" @click="" @mouseOver=""
+ />
+<u-input type="money" value="400,100,100" name="SampleID" placeholder="1000,000,000" tooltip="Sample" format="" mask="---,---" disable="false" visible="true" readonly="false"  dir="left" language="en-US" 
+         @focus="" @keyup="" @keydown="" @blur="" @click="" @mouseOver=""
+ />
 ```
