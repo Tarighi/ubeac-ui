@@ -12,11 +12,11 @@
 * type: boolean
 * default: false
 
-### TextOverImage
+### caption
 * type: String
 * default: clean
 
-### TextAlign
+### CaptionAlign
 * type: String
 * default: clean
 * available values: top, left, right,bottom,center
@@ -33,7 +33,7 @@
 ## Examples
 
 ```html
-<u-Image src="https://www.tajan.ir/Public/11/Skins/Images/unify/img/newlogotajan.png" alt="Sample" rounded="true" TextOverImage="Sample" TextAlign="center"  TextColor="#CD5C5C" @Click="" />
+<u-Image src="https://www.tajan.ir/Public/11/Skins/Images/unify/img/newlogotajan.png" alt="Sample" rounded="true" caption="Sample" CaptionAlign="center"  TextColor="#CD5C5C" @Click="" />
 
 <u-Image src="https://www.tajan.ir/Public/11/Skins/Images/unify/img/newlogotajan.png" alt="Sample" rounded="true" @Click="" />
         
