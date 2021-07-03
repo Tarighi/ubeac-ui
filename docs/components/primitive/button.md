@@ -14,8 +14,7 @@
 
 * type: String
 * default: primary
-* available values: primary, secondary, danger, alert, warning, ...
-
+* available values: econdary, primary, Success, Danger,Warning,Info,Light,Dark,Indigo,Purple,Pink,...
 ### autofocus
 
 * type: boolean
@@ -47,6 +46,16 @@
 * default: inside
 * available values: right-top, left-top
 
+### IconAfterText 
+* Type: String
+* Default :clean
+* available :check,arrow-end,search,close,pencil,...
+
+### HoverAnimated
+* Type: String
+* Default :clean
+* available :hover-top,hover-right,hover-bottom,hover-left,noshadow,hover-zoom,...
+
 ## Methods
 
 ### click
@@ -58,7 +67,8 @@
 ## Examples
 
 ```html
-<u-button variant="danger" disabled="false" autofocus text="Submit"
- visible="true" @click="" @beforeClick="" @afterClick="" loading="true" badge="secondary" PositionBadge="inside"         
+<u-button variant="danger" disabled="false" autofocus text="Submit" IconAfterText="pencil"
+ visible="true" @click="" @beforeClick="" @afterClick="" loading="true" badge="secondary" PositionBadge="inside" 
+          
  />
 ```
