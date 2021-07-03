@@ -44,10 +44,10 @@
   <u-readcrumb-Items Title="Site name"   CurrentActive="false" visible="true" Enable="false"   tooltip="" @ClickItems="" @MouseOverItems="" />
   <u-accordion-Items  CurrentActive="true" visible="true" Enable="true"   tooltip="" @ClickItems="" @MouseOverItems="" >
       <a href="https://smarty.stepofweb.com/3.0.6/html_frontend/documentation/components-breadcrumbs.html">breadcrumbs documentation</a>
-  </u-accordion-Items>
-   <u-accordion-Items  CurrentActive="false" visible="true" Enable="true"    tooltip="" @ClickItems="" @MouseOverItems="" >
+  </u-readcrumb-Items>
+   <u-readcrumb-Items  CurrentActive="false" visible="true" Enable="true"    tooltip="" @ClickItems="" @MouseOverItems="" >
       <a href="https://smarty.stepofweb.com/3.0.6/html_frontend/documentation/components-breadcrumbs.html">breadcrumbs documentation</a>
-  </u-accordion-Items>
+  </u-readcrumb-Items>
   
 </u-readcrumb>
 ```
