@@ -1,3 +1,10 @@
 # ULabel
 
-// TODO: do we need this
+
+## Properties
+
+### text
+* Type:String
+
+### for
+* Type: String
