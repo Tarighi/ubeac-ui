@@ -46,7 +46,7 @@
 * default: inside
 * available values: right-top, left-top
 
-### IconAfterText 
+### icon
 * Type: String
 * Default :clean
 * available :check,arrow-end,search,close,pencil,...
@@ -55,6 +55,16 @@
 * Type: String
 * Default :clean
 * available :hover-top,hover-right,hover-bottom,hover-left,noshadow,hover-zoom,...
+### ButtonType
+* Type: String
+* Default :clean
+* available :soft,soft-static,pill,ghost,rounded-circle
+
+### SocialButtons
+* Type: String
+* Default :clean
+* available :facebook,twitter,linkedin,vimeo,youtube
+
 
 ## Methods
 
@@ -67,8 +77,7 @@
 ## Examples
 
 ```html
-<u-button variant="danger" disabled="false" autofocus text="Submit" IconAfterText="pencil"
- visible="true" @click="" @beforeClick="" @afterClick="" loading="true" badge="secondary" PositionBadge="inside" 
-          
+<u-button variant="danger" disabled="false" autofocus text="Submit" icon="pencil" HoverAnimated="hover-top" ButtonType="soft pill" SocialButtons="facebook"
+ visible="true" @click="" @beforeClick="" @afterClick="" loading="true" badge="secondary" PositionBadge="inside"           
  />
 ```
