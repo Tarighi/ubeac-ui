@@ -16,8 +16,11 @@
   * default: default-badges
   * available values: default-badges, default-pill, soft-badges, soft-pill-badges, headings
 
+## Methods
+### click
+
 ## Examples
 
 ```html
-<u-badges text="Sample" variant="secondary" ViewType="default-badges" />
+<u-badges text="Sample" variant="secondary" ViewType="default-badges" @click="" />
 ```
